@@ -229,7 +229,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/cover-image1.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.05) 100%), url("../img/cover-image1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -268,7 +268,8 @@ header.masthead h1 {
 }
 
 .text-white {
-  color: #d6d4d2 !important;
+  color: #4f457f  !important;
+  text-shadow: .25px .25px #fff;
 }
 
 .btn {
